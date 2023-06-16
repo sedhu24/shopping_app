@@ -23,6 +23,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.pink,
+        fontFamily: "Poppins",
       ),
       onGenerateRoute: ((settings) => generateRoute(settings)),
       home: const SplashScreen(),

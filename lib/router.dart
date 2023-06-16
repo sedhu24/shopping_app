@@ -30,7 +30,7 @@ Route<dynamic> generateRoute(RouteSettings routeSettings) {
 
     case GettingStarted.routeName:
       return MaterialPageRoute(
-        builder: (_) => const SignInScreen(),
+        builder: (_) => const GettingStarted(),
       );
     case SignupOtp.routeName:
       return MaterialPageRoute(

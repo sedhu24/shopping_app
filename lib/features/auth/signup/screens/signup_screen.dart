@@ -105,7 +105,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   alignment: Alignment.bottomCenter,
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 25),
-                    height: 550,
+                    height: 630,
                     width: double.infinity,
                     decoration: const BoxDecoration(
                         color: Colors.white,
@@ -218,7 +218,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               textColor: Colors.white,
                             ),
                             const SizedBox(
-                              height: 10,
+                              height: 30,
                             ),
 
                             Row(
@@ -244,7 +244,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ],
                             ),
                             const SizedBox(
-                              height: 10,
+                              height: 30,
                             ),
 
                             // Social Login Row
@@ -303,7 +303,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ],
                             ),
                             const SizedBox(
-                              height: 20,
+                              height: 30,
                             ),
                             //
                             // Sign up Nav
